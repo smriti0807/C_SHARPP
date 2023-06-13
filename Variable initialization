@@ -1,0 +1,17 @@
+using System;
+namespace First{
+    public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int a=10;
+        a=20;
+        double num=45.7;
+        double c;
+        c=num+a;
+        Console.WriteLine ("the value is:"+ a);
+        Console.WriteLine ("the value is:"+ num);
+        Console.WriteLine ("the value is:"+ c);
+    }
+}
+}
